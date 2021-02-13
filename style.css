@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Reggae One', cursive;
+}
+
+#clock {
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  background-image: linear-gradient(
+    90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
